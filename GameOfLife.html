@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>John Conway's Game of Life</title>
+    <script src="graphics.js"></script>
+    <style>
+        #canvas_container {position: absolute; left: 100px; top: 100px; width: 400px; height: 400px;}
+    </style>
+</head>
+
+<body>
+    <header><h1> John Conway's Game of Life by Matt Hunter </h1></header>
+<!--
+define the HTML canvas element that will hold the graphical output
+-->
+<div id="canvas_container">
+    <canvas id="canvas"></canvas>
+</div>
+<!--
+execute the JavaScript
+-->
+<script src="GameOfLifeModel.js"></script>
+<script src="GameOfLifeDrawer.js"></script>
+
+</body>
+</html>
